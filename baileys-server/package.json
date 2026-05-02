@@ -1,0 +1,21 @@
+{
+  "name": "groupflow-baileys-server",
+  "version": "1.0.0",
+  "description": "Baileys REST backend for the GroupFlow dashboard",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pino": "^9.3.2",
+    "qrcode": "^1.5.4"
+  }
+}
